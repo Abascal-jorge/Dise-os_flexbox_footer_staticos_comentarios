@@ -109,8 +109,8 @@ h2 {
     min-height: 100vh;
 }
 
-.centrado >*{
-    
+.centrado > div{
+    flex: 0 0 calc(33.3% - 3rem);
 }
 
 .contenido-centrado{
@@ -142,4 +142,14 @@ h2 {
 .aviso span{
     font-size: 3rem;
     display: block;
+}
+
+.arriba{
+    margin-top: 20px;
+    align-self: baseline;
+}
+
+.abajo{
+    align-self:flex-end;
+    margin-bottom: 10%;
 }
