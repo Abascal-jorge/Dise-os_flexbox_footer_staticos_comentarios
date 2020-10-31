@@ -68,4 +68,78 @@ h2 {
     color: white;
 }
 
+/*Alinieacion elementos banner 
 
+.centrado{
+    background-image: url("/img/hamburguesa.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    margin: 40px;
+}
+.contenedor-contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.superior{
+}
+
+.center{
+    align-self: center;
+    flex: 0 0 33%;
+}
+
+.inferior{
+    align-self: flex-end;
+}*/
+
+/*Centrado*/
+
+.centrado{
+    background-image: url("../img/hamburguesa.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.centrado >*{
+    
+}
+
+.contenido-centrado{
+    color: white;
+    text-align: center;
+}
+
+.contenido-centrado h1 {
+    color: #ffffff;
+    text-transform: center;
+    margin: 0;
+}
+
+.contenido-centrado p{
+    margin: 0;
+}
+
+.contenido-centrado .ubicacion {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.aviso{
+    background-color: #e0ab10;
+    padding: 1rem;
+    text-align: center;
+}
+
+.aviso span{
+    font-size: 3rem;
+    display: block;
+}
